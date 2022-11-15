@@ -67,7 +67,7 @@ const figure = {
 // Primeira Tarefa - Retornar o Nome
 
 function returnName() {
-    console.log(figure.name)
+    console.log(figure.name);
 }
 returnName();
 
@@ -77,13 +77,140 @@ function verifyClass() {
     let retorno = ""
     for (let i = 0; i < figure.classes.length; i++) {
         if ([] == 0) {
-            retorno += figure.classes[i]
+            retorno += figure.classes[i];
         } else if ([] !== 0) {
-            retorno += figure.classes[i]
+            retorno += figure.classes[i];
         }
     }
-    return retorno
+    return retorno;
 }
 console.log(verifyClass());
 
 // Terceira Tarefa - Retornar o Poder Real 
+
+function realPower() {
+    if (figure.leader_trend == true) {
+        console.log(Math.pow(figure.power, 2));
+    } else {
+        console.log(figure.power);
+    }
+}
+realPower();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
