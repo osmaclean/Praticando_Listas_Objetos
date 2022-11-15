@@ -58,7 +58,7 @@ let objetoTurma = {
 
 const figure = {
     name: "Carl",
-    classes: ["Warrior", "Jedi", "Padawan"],
+    classes: ["Warrior ", "Jedi ", "Padawan "],
     leader_trend: true,
     power: 6,
     allied: true
@@ -74,12 +74,16 @@ returnName();
 // Segunda Tarefa - Retornar a Classe 
 
 function verifyClass() {
-    if ([] == 0) {
-        console.log(figure.classes[0])
-    } else if ([] > 0){
-        console.log(figure.classes)
+    let retorno = ""
+    for (let i = 0; i < figure.classes.length; i++) {
+        if ([] == 0) {
+            retorno += figure.classes[i]
+        } else if ([] !== 0) {
+            retorno += figure.classes[i]
+        }
     }
+    return retorno
 }
-verifyClass();
+console.log(verifyClass());
 
 // Terceira Tarefa - Retornar o Poder Real 
