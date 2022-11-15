@@ -33,3 +33,21 @@ let objetoCurso = {
     turma: 51,
     modulos: 9
 }
+
+// 4º Objeto 
+
+let objetoEndereco = {
+    cidade: "Fortaleza",
+    estado: "Ceará",
+    logradouro: "Prédio",
+    cep: 60165121
+}
+
+// 5º Objeto 
+
+let objetoTurma = {
+    professores: ["Jair", "Adalberto", "Felipe", "Lucas", "Rogério", "Luiz"],
+    alunos: ["Marcelo", "João", "Márcio", "Maurício"],
+    dataInicio: Date.now(),
+    dataPrevistaFormatura: 12062029
+}
