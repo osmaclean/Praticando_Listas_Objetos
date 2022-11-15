@@ -82,4 +82,4 @@ function verifyClass() {
 }
 verifyClass();
 
-// Terceira Tarefa - Retornar o Poder Real
+// Terceira Tarefa - Retornar o Poder Real 
