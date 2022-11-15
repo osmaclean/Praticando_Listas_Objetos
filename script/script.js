@@ -51,3 +51,35 @@ let objetoTurma = {
     dataInicio: Date.now(),
     dataPrevistaFormatura: 12062029
 }
+
+// SEGUNDA PARTE - MANIPULAÇÃO
+
+// Dado o objeto 
+
+const figure = {
+    name: "Carl",
+    classes: ["Warrior", "Jedi", "Padawan"],
+    leader_trend: true,
+    power: 6,
+    allied: true
+}
+
+// Primeira Tarefa - Retornar o Nome
+
+function returnName() {
+    console.log(figure.name)
+}
+returnName();
+
+// Segunda Tarefa - Retornar a Classe 
+
+function verifyClass() {
+    if ([] == 0) {
+        console.log(figure.classes[0])
+    } else if ([] > 0){
+        console.log(figure.classes)
+    }
+}
+verifyClass();
+
+// Terceira Tarefa - Retornar o Poder Real
