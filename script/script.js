@@ -58,7 +58,7 @@ let objetoTurma = {
 
 const figure = {
     name: "Carl",
-    classes: ["Warrior ", "Jedi ", "Padawan "],
+    classes: ["Warrior ",],
     leader_trend: true,
     power: 6,
     allied: true
@@ -97,10 +97,21 @@ function realPower() {
 }
 realPower();
 
+// Quarta Tarefa - A função deve adicionar um valor no objeto.
 
-
-
-
+function inserNewClass() {
+    let volta = ""
+    for (let i = 0; i < figure.classes.length; i++) {
+        if ([] < 3) {
+            figure.classes[1] = "Barbarious"
+            volta += figure.classes[i];
+        }  else if ([] > 3) {
+            volta += "Este personagem não pode estar em mais classes"
+        }
+    }
+    return volta
+}
+console.log(inserNewClass());
 
 
 
