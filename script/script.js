@@ -105,7 +105,7 @@ function inserNewClass() {
         if ([] < 3) {
             figure.classes[1] = "Barbarious"
             volta += figure.classes[i];
-        }  else if ([] > 3) {
+        } else if ([] > 3) {
             volta += "Este personagem não pode estar em mais classes"
         }
     }
@@ -113,13 +113,18 @@ function inserNewClass() {
 }
 console.log(inserNewClass());
 
+// Quinta Tarefa - A função deve conseguir verificar se o objeto é um aliado.
 
-
-
-
-
-
-
+function noMoreBarbarious() {
+    let texto = ""
+    if (figure.allied == true) {
+        console.log(`O valor é: ${figure.allied}`)
+        texto += figure.allied
+    } else {
+        console.log(`É mentira`)
+    }
+}
+noMoreBarbarious();
 
 
 
