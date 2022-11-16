@@ -126,7 +126,9 @@ function noMoreBarbarious() {
 }
 noMoreBarbarious();
 
-
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado em Objetos e Manipulações`);
+alert(`Tudo dentro do "Console"!`);
 
 
 
